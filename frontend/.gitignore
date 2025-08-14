@@ -12,6 +12,23 @@ dist
 dist-ssr
 *.local
 
+# Environment variables
+.env
+.env.*  # like .env.production, .env.local
+
+# Backend specific
+backend/node_modules/
+backend/package-lock.json
+
+# Frontend specific
+frontend/node_modules/
+frontend/package-lock.json
+frontend/.vite
+
+# Optional OS-specific files
+Thumbs.db
+
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
